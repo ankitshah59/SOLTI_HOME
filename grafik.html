@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body style="background-color:#1f253d;">
+ <head>
+  <title> Grafikci  </title>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="https://community.thunkable.com/t/beautiful-chart-maker/19786/38" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+  <script src="Chart.min.js"></script>
+ </head>
+
+ <body>
+  <canvas id="myChart" height="200" width="200"></canvas>
+  <div id=div1></div>
+<script>
+
+
+
+window.onload=function(){
+
+	var obj=window.AppInventor.getWebViewString();
+	obj=obj.split("&&"); 
+	
+	var type = obj[0];
+	var title = obj[1];
+	var labels = obj[2].split("||");
+	var set = obj[3].split("||");
+	var sublabels=set[0].split("##");
+
+	var data=[];
+	for (i=1;i<set.length;i++ ){
+		data.push(set[i].split("##"));
+	}
+	
+
+
+	var bgcolor=[
+						"rgba(19,198,31 ,1)",
+						"rgba(239,33,71 ,1)",
+						"rgba(255,206,86 ,1)",
+						"rgba(65,0,147 ,1)",
+						"rgba(9,184,62 ,1)",
+						"rgba(249,72,119 ,1)",
+						"rgba(255,252,0 ,1)",
+						"rgba(0,195,0 ,1)",
+						"rgba(0,175,240 ,1)",
+						"rgba(185,43,39 ,1)",
+						"rgba(2,184,117 ,1)",
+						"rgba(255,0,132 ,1)"];
+	
+
+
+
+	var ctx = document.getElementById("myChart");
+
+	if (type=="bar" || type=="horizontalBar")	{		
+
+		
+		var datasets=[];
+		for (i=0;i<data.length ;i++ )
+		{
+				var sets={};
+				sets["label"]=sublabels[i];
+				sets["data"]=data[i];
+				sets["backgroundColor"]=bgcolor[i];
+				datasets.push(sets);
+		}
+
+
+		var myChart = new Chart(ctx, {
+			type: type,
+			data: {
+				labels: labels,
+				datasets: datasets,
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: true,
+					text: title,
+				},	
+			}
+		});
+	}	
+
+	else if (type=="stackedBar")	{		
+
+		
+		var datasets=[];
+		for (i=0;i<data.length ;i++ )
+		{
+				var sets={};
+				sets["label"]=sublabels[i];
+				sets["data"]=data[i];
+				sets["backgroundColor"]=bgcolor[i];
+				datasets.push(sets);
+		}
+
+
+		var myChart = new Chart(ctx, {
+			type: "bar",
+			data: {
+				labels: labels,
+				datasets: datasets,
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: true,
+					text: title,
+				},	
+				scales: {
+						xAxes: [{
+							stacked: true,
+						}],
+						yAxes: [{
+							stacked: true
+						}]
+					}
+			}
+		});
+	}	
+	
+	else if (type=="pie" || type=="doughnut" || type=="polarArea")	{
+		var myChart = new Chart(ctx, {
+			type: type,
+			data: {
+				labels: labels,
+				datasets: [{
+					label: sublabels[0],
+					data: data[0],
+					backgroundColor:bgcolor,
+
+				}]
+			},
+			options: {
+				title: {
+			display: false
+				},
+			legend: {
+			display: false
+			}	
+				
+			}
+		});
+	}
+
+	else if (type=="line")
+	{
+		var datasets=[];
+		for (i=0;i<data.length ;i++ )
+		{
+				var sets={};
+				sets["label"]=sublabels[i];
+				sets["data"]=data[i];
+				sets["backgroundColor"]=bgcolor[i];
+				sets["borderColor"]=bgcolor[i];
+				sets["lineTension"]=0.1;
+				sets["fill"]=false;
+				datasets.push(sets);
+		}
+
+
+
+		var myChart = new Chart(ctx,{
+			type: type,
+			data:{
+				labels:labels,
+				datasets:datasets,
+			},
+			options: {
+				title: {
+					display: true,
+					text: title,
+				},	
+			}
+			
+		});
+	}
+	else if (type=="radar")
+	{
+		var datasets=[];
+		for (i=0;i<data.length ;i++ )
+		{
+				var sets={};
+				sets["label"]=sublabels[i];
+				sets["data"]=data[i];
+				sets["backgroundColor"]=bgcolor[i];
+				sets["borderColor"]=bgcolor[i];
+				sets["lineTension"]=0.1;
+				sets["fill"]=false;
+				datasets.push(sets);
+		}
+		var myChart = new Chart(ctx,{
+			type: type,
+			data:{
+				labels:labels,
+				datasets:datasets,
+			},
+			options: {
+				maintainAspectRatio: true,
+				spanGaps: false,
+				elements: {
+					line: {
+						tension: 0.000001
+					}
+				},
+				title: {
+					display: true,
+					text: title,
+				},
+				
+			}
+			
+		});
+	}
+	else if (type=="polarArea")
+	{
+		var datasets=[];
+		for (i=0;i<data.length ;i++ )
+		{
+				var sets={};
+				sets["label"]=sublabels[i];
+				sets["data"]=data[i];
+				sets["backgroundColor"]=bgcolor[i];
+				sets["borderColor"]=bgcolor[i];
+				sets["lineTension"]=0.1;
+				sets["fill"]=1;
+				datasets.push(sets);
+		}
+		var myChart = new Chart(ctx,{
+			type: type,
+			data:{
+				labels:labels,
+				datasets:datasets,
+			},
+			options: {
+				maintainAspectRatio: true,
+				spanGaps: false,
+				elements: {
+					line: {
+						tension: 0.000001
+					}
+				},
+				title: {
+					display: true,
+					text: title,
+				},
+				
+			}
+			
+		});
+	}
+
+
+
+
+
+}
+
+
+
+
+</script>
+ </body>
+</html>
