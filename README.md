@@ -55,7 +55,7 @@ In order to package and export the **.apk** file go to export tab and on the dro
 * If the phone doesnt allow installation from unknown sources make sure to allow installation from unkonwn sources that can be changed from smartphone settings.
 * After installing the App has **Google Authentication** system that is linked to Google Firebase. So, new users can login using their google account linked to their phone or sign up using new account. 
 * When the Dashboard loads with pop up screen, please *allow HoMart to access photos, media and files on your device*. This is because the user data is stored in the users smart phone storage.  
-* Now the app is ready to use. 
+* Make sure you have internet connection available. App wont function correctly unless you have internet connection. Now the app is ready to use.
 
 ## App Functionality
 
