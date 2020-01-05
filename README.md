@@ -15,7 +15,7 @@ HoMart is a complete package to assist users of the kitchen.
 
 ## Getting Started
 
-The app was built from MIT web based app development framework called [Kodular.io](https://www.kodular.io/). So in order to compile the .aia file create an account by clicking on Create Apps.
+The app was built from MIT web based app development framework called [Kodular.io](https://www.kodular.io/). Its a drag and drop online app development framework. So in order to compile the **.aia** file create an account by clicking on Create Apps on [Kodular.io](https://www.kodular.io/).
 
 ### Importing .aia file to Kodular Server
 
@@ -34,27 +34,21 @@ All the fronend components that was used to build the app can be seen here.
 All the codes that was used to build the app can be seen here.
 ```
 
-### Installing
+### Switching Screens
 
-A step by step series of examples that tell you how to get a development env running
+There are 8 screens in the app. In order to view codes on each screen press the dropdown menu on tab called **Screen1** as shown below. 
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+![](Images/menuDrop.png)
 
 ```
-until finished
+Swicthing screen from the drop down menu can help view the codes and frontend design of each screen.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## Packaging .apk file
 
-## Running the tests
+In order to package and export the **.apk** file go to export tab and on the drop down menu select *"Save .apk to my computer"*. The file will be automatically downloaded and can be installed on the android smartphone.
 
-Explain how to run the automated tests for this system
+![](Images/ExportAPK.png)
 
 ### Break down into end to end tests
 
