@@ -98,7 +98,7 @@ In order to package and export the **.apk** file go to export tab and on the dro
 * [Google Firebase](https://firebase.google.com) - Online Database to get the sensor data from Smart Kitchen device and for   user Authentication from Google.
 * [Material Icons](https://material.io/resources/icons/?icon=create&style=baseline) - Icons in App
 
-## Resources / Technologies used in the Smart Kicthen Device
+## Resources / Technologies used in the Smart Kitchen Device
 
 * Arduino Compiler V1.6.9
 * Google Firebase
