@@ -24,7 +24,7 @@ When signup is complete, there is an option for **Import Project** on the Kodula
 ![](https://github.com/ankitshah59/SOLTI_HOME/blob/master/Images/Screen%20Shot%202020-01-05%20at%2012.40.37%20PM.png)
 
 ```
-All the fronend components that was used to build the app can be seen here.
+All the frontend components that was used to build the app can be seen here.
 ```
  The backend and coding part is in the **Blocks** tab as seen below.
  
@@ -50,21 +50,12 @@ In order to package and export the **.apk** file go to export tab and on the dro
 
 ![](Images/ExportAPK.png)
 
-### Break down into end to end tests
+## Installation and Deployment
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+* If the phone doesnt allow installation from unknown sources make sure to allow installation from unkonwn sources that can be changed from smartphone settings.
+* After installing the App has **Google Authentication** system that is linked to Google Firebase. So, new users can login using their google account linked to their phone or sign up using new account. 
+* When the Dashboard loads with pop up screen, please *allow HoMart to access photos, media and files on your device*. This is because the user data is stored in the users smart phone storage.  
+* Now the app is ready to use. 
 
 ## Deployment
 
