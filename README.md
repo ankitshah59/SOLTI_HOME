@@ -15,7 +15,7 @@ HoMart is a complete package to assist users of the kitchen.
 
 ## Getting Started
 
-The app was built from MIT web based app development framework called [Kodular.io](https://www.kodular.io/). Its a drag and drop online app development framework. So in order to compile the **.aia** file create an account by clicking on Create Apps on [Kodular.io](https://www.kodular.io/).
+The app was built from MIT web based android app development framework called [Kodular.io](https://www.kodular.io/). Its a drag and drop online app development framework. There are two ways to install the app: Either just download **HoMart.apk** directly and follow *Installation and Deployment* instructions below or follow the steps below how to parse the **.aia** file. In order to compile the **.aia** file create an account by clicking on Create Apps on [Kodular.io](https://www.kodular.io/).
 
 ### Importing .aia file to Kodular Server
 
@@ -57,9 +57,20 @@ In order to package and export the **.apk** file go to export tab and on the dro
 * When the Dashboard loads with pop up screen, please *allow HoMart to access photos, media and files on your device*. This is because the user data is stored in the users smart phone storage.  
 * Now the app is ready to use. 
 
-## Deployment
+## App Functionality
 
-Add additional notes about how to deploy this on a live system
+### Dashboard
+1) Daily overview of items on cart, Number of expiring items and number of appliances swithched on.
+2) Buttons with Link to the different screens.
+3) Update Shopping List button from which user can add groceries to the wish list. For Ex. By saying "Add Coffee"
+4) Bottom Navigation Bar to navigate through different menu.
+
+### Grocery Stats
+1) You can update the grocery name from the *Pen* icon located on right.
+2) You can set the threshold of the grocery by clicking on icon located just right of *Pen* icon. 
+   - if there is 7.5lbs Apples in kitchen and if you set the threshold to 3lbs then you will be notified when the grocery is      low updating the shopping cart
+3) The Notification icon: if the weight of the groceries falls below the set threshold the color of Notification icon will      turn *red* else it will be *black*.
+
 
 ## Built With
 
