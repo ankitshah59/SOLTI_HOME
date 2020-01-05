@@ -1,4 +1,5 @@
-# HoMart - "Smart Kitchen App/Tech" ( Developer: Ankit Shah )
+# HoMart - "Smart Kitchen App/Tech" 
+## ( Developer: Ankit Shah )
 
 HoMart is a smart kitchen assistant Android App that can notify the amount of groceries in home, auto/manually update items on cart, show weekly consumption analysis and control kitchen appliances from anywhere online. In our busy life sometimes its very difficult to keep track of groceries and when we go for shopping we might forget to buy some items. There are many things around in the kitchen that might have expired or is nearing expiry that we might not notice. So HoMart app lets you know how much groceries you have based upon the weight of the groceries. 
 
