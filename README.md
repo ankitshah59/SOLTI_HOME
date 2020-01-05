@@ -19,11 +19,19 @@ The app was built from MIT web based app development framework called [Kodular.i
 
 ### Importing .aia file to Kodular Server
 
-When signup is complete, there is an option for **Import Project** on the Kodular dashboard. Simply, upload the .aia file and the screen appears with the frontend design of the app loaded. The frontend design is in the **Designer** tab. 
+When signup is complete, there is an option for **Import Project** on the Kodular dashboard. Simply, upload the .aia file and the screen appears with the frontend design of the app loaded. The frontend design is in the **Designer** tab as seen below. 
 
-![alt text](https://drive.google.com/file/d/1gb2JCVdVuJgqxatFtgGKoDnqmcnL5nsU/view?usp=sharing)
+![](https://github.com/ankitshah59/SOLTI_HOME/blob/master/Images/Screen%20Shot%202020-01-05%20at%2012.40.37%20PM.png)
+
 ```
-Give examples
+All the fronend components that was used to build the app can be seen here.
+```
+ The backend and coding part is in the **Blocks** tab as seen below.
+ 
+ ![](Images/Sblocks.png)
+ 
+```
+All the codes that was used to build the app can be seen here.
 ```
 
 ### Installing
