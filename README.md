@@ -1,9 +1,9 @@
 # HoMart - "Smart Kitchen App/Tech" 
 ## ( Developer: Ankit Shah )
 
-HoMart is a smart kitchen assistant Android App that can notify the amount of groceries in home, auto/manually update items on cart, show weekly consumption analysis and control kitchen appliances from anywhere online. In our busy life sometimes its very difficult to keep track of groceries and when we go for shopping we might forget to buy some items. There are many things around in the kitchen that might have expired or is nearing expiry that we might not notice. So HoMart app lets you know how much groceries you have based upon the weight of the groceries. 
+**HoMart** is a smart kitchen assistant Android App that can notify the amount of groceries in home, auto/manually update items on cart, show weekly consumption analysis and control kitchen appliances from anywhere online. In our busy life sometimes its very difficult to keep track of groceries and when we go for shopping we might forget to buy some items. There are many things around in the kitchen that might have expired or is nearing expiry that we might not notice. So HoMart app lets you know how much groceries you have based upon the weight of the groceries. 
 
-The HoMart app communicates in real time with the "Smart Kitchen Device" that senses the weight of groceries and tracks the changes in weight everyday and sends the data to the app. User can set the threshold to notify when the groceries are low, ( ie: if there is 7.5lbs Apples and if the user sets the threshold 3lbs then user will be notified when the grocery is low updating the shopping cart). Also having the capability to remind user to check if certain food is expired or not (ie: if the user sets the expiry date to be 4 days of the grocery then the user will be notified on 4th day onwards about the item) by detecting the weight change in the user defined time period.
+The HoMart app communicates in real time with the **"Smart Kitchen Device"** that senses the weight of groceries and tracks the changes in weight everyday and sends the data to the app. User can set the threshold to notify when the groceries are low, ( ie: if there is 7.5lbs Apples and if the user sets the threshold 3lbs then user will be notified when the grocery is low updating the shopping cart). Also having the capability to remind user to check if certain food is expired or not (ie: if the user sets the expiry date to be 4 days of the grocery then the user will be notified on 4th day onwards about the item) by detecting the weight change in the user defined time period.
 
 App also graphs the weekly consumption of each groceries so it will let users know the pattern of their diet, consumption status and items they rarely use. So, next time when they go for shoppping it will help them to "Shop Smart".
 
@@ -69,10 +69,28 @@ In order to package and export the **.apk** file go to export tab and on the dro
 1) You can update the grocery name from the *Pen* icon located on right.
 2) You can set the threshold of the grocery by clicking on icon located just right of *Pen* icon. 
    - if there is 7.5lbs Apples in kitchen and if you set the threshold to 3lbs then you will be notified when the grocery is      low updating the shopping cart
-3) The Notification icon: if the weight of the groceries falls below the set threshold the color of Notification icon will      turn *red* else it will be *black*.
+3) The Notification icon: if the weight of the groceries falls below the set threshold the color of Notification icon will      turn *red* else it will be *black*. Pressing the icon opens up the Shopping List page.
 
 ![](Images/GroceryStats.jpg)
 
+### Weekly Stats
+1) The weekly stats screen contains line graph and bar graph under weekly consumption tab. 
+2) The Consumption report tab consists of Average usage of each groceries on the sensors in the week till that day. 
+3) It also shows for how many days items were not used if the weight on the sensor doesnt changes. 
+   - By default user will be notified in 3 days to alert user if the item is about to expire. Else Expiry/Alert day can be        updated from *Items about to Expire this week?* button.
+
+### Shopping List
+1) Under Low Groceries tab, users get all the item in the cart that are low in the kitchen. (are less than the user set threshold).
+2) Under Wish List tab, users can add/remove the groceries on the shopping List. 
+   - This is the tab where users get the groceries added by the voice recognition button on Dashboard.
+   
+### Home Automation
+1) Under Home Automation, users can switch on/off the appliances connected to the **Smart Kitchen Device**.
+2) Set Timer to on/off the appliances.
+3) Completed Task is underdevelopment so, it will be developed in the future.
+
+### Kitchen Live
+- This is an experimental feature which will give the video of the kitchen to monitor the activities like cooking, fire,and   so on. It will be developed in the future.
 
 ## Built With
 
