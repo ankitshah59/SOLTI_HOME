@@ -92,15 +92,37 @@ In order to package and export the **.apk** file go to export tab and on the dro
 ### Kitchen Live
 - This is an experimental feature which will give the video of the kitchen to monitor the activities like cooking, fire,and   so on. It will be developed in the future.
 
-## Built With
+## Resources / Technologies used in the App
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Kodular.io](http://kodular.io) - The web based app development framework
+* [Google Firebase](https://firebase.google.com) - Online Database to get the sensor data from Smart Kitchen device and for   user Authentication from Google.
+* [Material Icons](https://material.io/resources/icons/?icon=create&style=baseline) - Icons in App
 
-## Contributing
+## Resources / Technologies used in the Smart Kicthen Device
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* Arduino Compiler V1.6.9
+* Google Firebase
+* HX711 weight sensors
+* WeMos D1 - programmable ESP8266 microcontroller
+* NodeMCU -programmable ESP8266 microcontroller
+
+## Libraries / Extensions Used
+
+* Chartmaker - Beautiful chart making (App)
+* ListView - organized list view on Wish List tab (App)
+* HX711 library - to get the sensor data (Device)
+* Arduino Firebase library - to push/get data from database (Device)
+
+## Security Awareness/Concerns Addressed in App
+
+* This app currently supports Android system, so almost all users have google account linked to phone, so here user Login Authentication is done through Google Firebase Authentication system, which only provides name, email, userID and photo of the users. Password is not needed to sign in as verfication is already done by google.
+* The Sensor data is pushed to Google firebase storage using userID provided by google so the name of the user is not stored in the online databse. 
+* All the name of the groceries are saved inside the users smartphone storage so there is no data leak of the type of         groceries used by the user. The online data base just gets the numbers based on *Sensor1: 6.7, Sensor2: 8.4, Sensor3: 55.3..."*.
+
+```
+Shown below is how Firebase Database looks like with the userID provided by Google.
+```
+![](Images/firebaseData.png)
 
 ## Versioning
 
