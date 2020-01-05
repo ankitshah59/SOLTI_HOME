@@ -15,8 +15,7 @@ HoMart is a complete package to assist users of the kitchen.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+The app was built from MIT based we development framework called [Kodular.io] (https://www.kodular.io/)
 ### Prerequisites
 
 What things you need to install the software and how to install them
