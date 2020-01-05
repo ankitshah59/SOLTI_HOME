@@ -71,7 +71,7 @@ In order to package and export the **.apk** file go to export tab and on the dro
    - if there is 7.5lbs Apples in kitchen and if you set the threshold to 3lbs then you will be notified when the grocery is      low updating the shopping cart
 3) The Notification icon: if the weight of the groceries falls below the set threshold the color of Notification icon will      turn *red* else it will be *black*.
 
-![](Images/Grocery Stats.jpg)
+![](Images/GroceryStats.jpg)
 
 
 ## Built With
