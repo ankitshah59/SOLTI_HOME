@@ -131,8 +131,11 @@ Shown below is the Test accounts that signed in and succesfully got the sensor d
 ![](Images/userAuth.png)
 
 
-## Author Bio
+## Author Bio / Contact Info
 
 * **Ankit Shah** - *Undergraduate in CS and Electrical Engineering* 
+  - Ankit is an enthusiast in combining knowledge of CS and Electrical engineering together. He has devloped technologoies like Brain Computer Interface, Smart Pedical Probe, Voice Controlled Home Automation System, and many more disability assistant technologies. His passion is to help disbled people with the smart assistant technologies and he has his personal project going on currently.
+  
+* If you have any questions or concerns please feel free to **Contact:** -  ankit111@unm.edu 
 
 
