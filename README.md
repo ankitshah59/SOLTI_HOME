@@ -15,11 +15,13 @@ HoMart is a complete package to assist users of the kitchen.
 
 ## Getting Started
 
-The app was built from MIT based we development framework called [Kodular.io](https://www.kodular.io/)
-### Prerequisites
+The app was built from MIT web based app development framework called [Kodular.io](https://www.kodular.io/). So in order to compile the .aia file create an account by clicking on Create Apps.
 
-What things you need to install the software and how to install them
+### Importing .aia file to Kodular Server
 
+When signup is complete, there is an option for **Import Project** on the Kodular dashboard. Simply, upload the .aia file and the screen appears with the frontend design of the app loaded. The frontend design is in the **Designer** tab. 
+
+![alt text](https://drive.google.com/file/d/1gb2JCVdVuJgqxatFtgGKoDnqmcnL5nsU/view?usp=sharing)
 ```
 Give examples
 ```
