@@ -43,6 +43,13 @@ There are 8 screens in the app. In order to view codes on each screen press the 
 ```
 Swicthing screen from the drop down menu can help view the codes and frontend design of each screen.
 ```
+### Viewing Codes and Comments
+
+The Coding in the Kodular.io is drag and drop based, so the Screen can be zoomed in and out and moved around to view all the codes.
+```
+The comments are indicated by question mark on the code blocks. Press the Question mark to enable or disable comments
+```
+![](Images/codeBlock.png)
 
 ## Packaging .apk file
 
