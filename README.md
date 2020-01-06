@@ -51,6 +51,11 @@ The comments are indicated by question mark on the code blocks. Press the Questi
 ```
 ![](Images/codeBlock.png)
 
+### Setting the Project Bucket
+Its really important to note that project Bucket of Google Firebase must be initialized to left empty in designer screen of Welcome, Grocery Stats, Weekly Stats and Home Automation. **Its really important** or we wont get the values from the firebase. For some reason Kodular has this bug that it initializes with some text already in there. So remove the text and leave the project bucket empty.
+
+![](Images/kodularBug.png)
+
 ## Packaging .apk file
 
 In order to package and export the **.apk** file go to export tab and on the drop down menu select *"Save .apk to my computer"*. The file will be automatically downloaded and can be installed on the android smartphone.
