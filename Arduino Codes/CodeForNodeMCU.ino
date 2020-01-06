@@ -23,7 +23,7 @@ HX711 scale1, scale2;
 #define FIREBASE_HOST "homemart-29be0.firebaseio.com" //
  #define FIREBASE_AUTH "8nOLRVdTt3U5CbyqLhDb5gtnKjZQIfd2ec2u5KSr"                                                     //
 #define WIFI_SSID "Gautam Buddha"
-#define WIFI_PASSWORD "tinderboy"
+#define WIFI_PASSWORD "xyzxyz"
 
 int test;
 int state;
