@@ -15,7 +15,7 @@ HoMart is a complete package to assist users of the kitchen.
 
 ## Getting Started
 
-The app was built from MIT web based android app development framework called [Kodular.io](https://www.kodular.io/). Its a drag and drop online app development framework. There are two ways to install the app: Either just download **[HoMart.apk](Final App HoMart/Homart.apk)** directly and follow *Installation and Deployment* instructions below or follow the steps below how to parse the **.aia** file. In order to compile the **.aia** file create an account by clicking on Create Apps on [Kodular.io](https://www.kodular.io/).
+The app was built from MIT web based android app development framework called [Kodular.io](https://www.kodular.io/). Its a drag and drop online app development framework. There are two ways to install the app: Either just download **HoMart.apk** directly from *Final App HoMart* directory and follow *Installation and Deployment* instructions below **or** follow the steps below how to parse the **HoMart.aia** file which is in *Final Code:Design File* folder. In order to compile the **.aia** file create an account by clicking on Create Apps on [Kodular.io](https://www.kodular.io/).
 
 ### Importing .aia file to Kodular Server
 
