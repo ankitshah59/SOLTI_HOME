@@ -142,6 +142,9 @@ Shown below is the Test accounts that signed in and succesfully got the sensor d
 ```
 ![](Images/userAuth.png)
 
+## Smart Kitchen Device
+
+![](https://raw.githubusercontent.com/ankitshah59/SOLTI_HOME/master/Images/Smart%20Kitchen%20Device1.jpg)
 
 ## Author Bio / Contact Info
 
